@@ -2889,8 +2889,9 @@
     {
       "@id": "https://repolex.ai/r/rollup/plugins/commit/0bef93f5f4826a0580d4483a9e583abbfb5002ab",
       "git:hexsha": "0bef93f5f4826a0580d4483a9e583abbfb5002ab",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "yaml-v4.1.1"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "yaml-v4.1.1",
+      "repolex:parsedAt": "2026-04-09T21:45:43.818119+00:00"
     }
   ]
 }
