@@ -1,0 +1,37 @@
+[2026-04-10T00:56:05Z] === ENRICH ITERATION 1 START | repo=rollup/plugins sha=ee8c8bc3 ===
+[2026-04-10T00:56:05Z] [iter=1] PHASE START: enrich repo=rollup/plugins sha=ee8c8bc3 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ee8c8bc3-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ee8c8bc30eca77bc5141302a4634ee7f6e4c048f.nq.gz
+[2026-04-10T00:56:16Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=82 MB
+[2026-04-10T00:56:19Z] [iter=1] AST store loaded triples=488886 load_secs=4 mem_mb=792 MB
+[2026-04-10T00:56:19Z] [iter=1] Step 2: Finding LSP targets mem_mb=792 MB
+[2026-04-10T00:56:20Z] [iter=1] LSP targets found call_sites=4697 imports=509 extends=9 implements=1 secs=0
+[2026-04-10T00:56:20Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=792 MB
+[2026-04-10T00:56:22Z] [iter=1] Position index built positions=34006 nodes_with_types=39781 secs=2 mem_mb=792 MB
+[2026-04-10T00:56:22Z] [iter=1] Step 3: Starting LSP resolution mem_mb=792 MB already_completed_types=[] already_completed_files=0
+[2026-04-10T00:56:22Z] [iter=1] Resolving target type target_type=call_site count=4697
+[2026-04-10T00:57:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.5 files_done=4 resolved=12 errors=390 current=packages/json/test/test.js
+[2026-04-10T00:58:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.0 files_done=6 resolved=12 errors=560 current=packages/commonjs/test/fixtures/function/resolve-is-cjs-extension/main.js
+[2026-04-10T00:58:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.6 files_done=9 resolved=21 errors=753 current=packages/babel/src/preflightCheck.js
+[2026-04-10T00:59:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.9 files_done=14 resolved=34 errors=1144 current=packages/commonjs/test/fixtures/form/optimised-default-export-iife/output.js
+[2026-04-10T01:00:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.4 files_done=22 resolved=47 errors=1335 current=packages/commonjs/test/fixtures/form/require-collision/input.js
+[2026-04-10T01:01:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.0 files_done=27 resolved=49 errors=1519 current=packages/virtual/src/index.js
+[2026-04-10T01:01:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.6 files_done=33 resolved=55 errors=1708 current=packages/replace/test/form.js
+[2026-04-10T01:02:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=41 resolved=73 errors=1890 current=packages/multi-entry/test/test.js
+[2026-04-10T01:02:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.7 files_done=52 resolved=102 errors=2058 current=packages/strip/test/fixtures/super-method/input.js
+[2026-04-10T01:03:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=67 resolved=122 errors=2302 current=packages/commonjs/test/fixtures/form/ignore-ids-function/output.js
+[2026-04-10T01:04:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=84 resolved=130 errors=2494 current=packages/dsv/test/test.js
+[2026-04-10T01:04:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.6 files_done=100 resolved=148 errors=2658 current=packages/commonjs/test/fixtures/function/dynamic-require-resolve-index/main.js
+[2026-04-10T01:05:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.1 files_done=128 resolved=183 errors=2818 current=packages/yaml/test/fixtures/yml/main.js
+[2026-04-10T01:05:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.6 files_done=284 resolved=255 errors=2967 current=packages/commonjs/test/fixtures/function/bare-import/foo.js
+[2026-04-10T01:06:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.3 files_done=346 resolved=290 errors=3166 current=packages/typescript/src/watchProgram.ts
+[2026-04-10T01:06:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.8 files_done=355 resolved=299 errors=3334 current=packages/pluginutils/test/makeLegalIdentifier.ts
+[2026-04-10T01:07:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.3 files_done=379 resolved=317 errors=3495 current=packages/typescript/src/options/plugin.ts
+[2026-04-10T01:07:31Z] [iter=1] Target type resolved target_type=call_site resolved=325 errors=3517 secs=669 mem_mb=792 MB
+[2026-04-10T01:07:31Z] [iter=1] Resolving target type target_type=import_statement count=509
+[2026-04-10T01:07:48Z] [iter=1] Target type resolved target_type=import_statement resolved=276 errors=0 secs=17 mem_mb=792 MB
+[2026-04-10T01:07:48Z] [iter=1] Resolving target type target_type=extends_clause count=9
+[2026-04-10T01:07:52Z] [iter=1] Target type resolved target_type=extends_clause resolved=8 errors=0 secs=4 mem_mb=792 MB
+[2026-04-10T01:07:52Z] [iter=1] Resolving target type target_type=implements_clause count=1
+[2026-04-10T01:07:53Z] [iter=1] Target type resolved target_type=implements_clause resolved=1 errors=0 secs=2 mem_mb=792 MB
+[2026-04-10T01:08:01Z] [iter=1] Step 5: Writing final enrichment file triples=52984
+[2026-04-10T01:08:03Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/ee8c8bc30eca77bc5141302a4634ee7f6e4c048f.nq.gz size_kb=1137
+[2026-04-10T01:08:03Z] [iter=1] PHASE END: enrich elapsed_s=718 elapsed_min=12.0 total_triples=52984
